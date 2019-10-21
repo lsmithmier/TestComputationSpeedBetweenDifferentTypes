@@ -5,7 +5,7 @@ namespace TestComputationSpeedBetweenDifferentTypes
     public class MultiplicationSpeedTests : SpeedTestValues
     {
         [Benchmark(Description = "signed byte multiplication")]
-        public void SignedByteMultiplication()
+        public void TestSignedByteMultiplication()
         {
             for (int x = 0; x < N / 2; x++)
             {
@@ -14,7 +14,7 @@ namespace TestComputationSpeedBetweenDifferentTypes
         }
 
         [Benchmark(Description = "byte multiplication")]
-        public void ByteMultiplication()
+        public void TestByteMultiplication()
         {
             for (int x = 0; x < N / 2; x++)
             {
@@ -23,7 +23,7 @@ namespace TestComputationSpeedBetweenDifferentTypes
         }
 
         [Benchmark(Description = "short integer multiplication")]
-        public void ShortIntegerMultiplication()
+        public void TestShortIntegerMultiplication()
         {
             for (int x = 0; x < N / 2; x++)
             {
@@ -32,7 +32,7 @@ namespace TestComputationSpeedBetweenDifferentTypes
         }
 
         [Benchmark(Description = "unsigned short integer multiplication")]
-        public void UnsignedShortIntegerMultiplication()
+        public void TestUnsignedShortIntegerMultiplication()
         {
             for (int x = 0; x < N / 2; x++)
             {
@@ -41,7 +41,7 @@ namespace TestComputationSpeedBetweenDifferentTypes
         }
 
         [Benchmark(Description = "integer multiplication")]
-        public void IntegerMultiplication()
+        public void TestIntegerMultiplication()
         {
             for (int x = 0; x < N / 2; x++)
             {
@@ -50,7 +50,7 @@ namespace TestComputationSpeedBetweenDifferentTypes
         }
 
         [Benchmark(Description = "unsigned integer multiplication")]
-        public void UnsignedIntegerMultiplication()
+        public void TestUnsignedIntegerMultiplication()
         {
             for (int x = 0; x < N / 2; x++)
             {
@@ -59,7 +59,7 @@ namespace TestComputationSpeedBetweenDifferentTypes
         }
 
         [Benchmark(Description = "long integer multiplication")]
-        public void LongIntegerMultiplication()
+        public void TestLongIntegerMultiplication()
         {
             for (int x = 0; x < N / 2; x++)
             {
@@ -68,7 +68,7 @@ namespace TestComputationSpeedBetweenDifferentTypes
         }
 
         [Benchmark(Description = "unsigned long integer multiplication")]
-        public void UnsignedLongIntegerMultiplication()
+        public void TestUnsignedLongIntegerMultiplication()
         {
             for (int x = 0; x < N / 2; x++)
             {
@@ -77,7 +77,7 @@ namespace TestComputationSpeedBetweenDifferentTypes
         }
 
         [Benchmark(Description = "float multiplication")]
-        public void FloatMultiplication()
+        public void TestFloatMultiplication()
         {
             for (int x = 0; x < N / 2; x++)
             {
@@ -86,7 +86,7 @@ namespace TestComputationSpeedBetweenDifferentTypes
         }
 
         [Benchmark(Description = "double multiplication")]
-        public void DoubleMultiplication()
+        public void TestDoubleMultiplication()
         {
             for (int x = 0; x < N / 2; x++)
             {
@@ -95,7 +95,7 @@ namespace TestComputationSpeedBetweenDifferentTypes
         }
 
         [Benchmark(Description = "decimal multiplication")]
-        public void DecimalMultiplication()
+        public void TestDecimalMultiplication()
         {
             for (int x = 0; x < N / 2; x++)
             {

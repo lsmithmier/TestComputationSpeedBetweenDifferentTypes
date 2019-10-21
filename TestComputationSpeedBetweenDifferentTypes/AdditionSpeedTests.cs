@@ -7,7 +7,7 @@ namespace TestComputationSpeedBetweenDifferentTypes
     public class AdditionSpeedTests : SpeedTestValues
     {
         [Benchmark(Description = "signed byte addition")]
-        public void SignedByteAdditon()
+        public void TestSignedByteAdditon()
         {
             for (int x = 0; x < N/2; x++)
             {
@@ -16,7 +16,7 @@ namespace TestComputationSpeedBetweenDifferentTypes
         }
 
         [Benchmark(Description = "byte addition")]
-        public void ByteAdditon()
+        public void TestByteAdditon()
         {
             for (int x = 0; x < N / 2; x++)
             {
@@ -25,7 +25,7 @@ namespace TestComputationSpeedBetweenDifferentTypes
         }
 
         [Benchmark(Description = "short integer addition")]
-        public void ShortIntegerAdditon()
+        public void TestShortIntegerAdditon()
         {
             for (int x = 0; x < N / 2; x++)
             {
@@ -34,7 +34,7 @@ namespace TestComputationSpeedBetweenDifferentTypes
         }
 
         [Benchmark(Description = "unsigned short integer addition")]
-        public void UnsignedShortIntegerAdditon()
+        public void TestUnsignedShortIntegerAdditon()
         {
             for (int x = 0; x < N / 2; x++)
             {
@@ -43,7 +43,7 @@ namespace TestComputationSpeedBetweenDifferentTypes
         }
 
         [Benchmark(Description = "integer addition")]
-        public void IntegerAdditon()
+        public void TestIntegerAdditon()
         {
             for (int x = 0; x < N / 2; x++)
             {
@@ -52,7 +52,7 @@ namespace TestComputationSpeedBetweenDifferentTypes
         }
 
         [Benchmark(Description = "unsigned integer addition")]
-        public void UnsignedIntegerAdditon()
+        public void TestUnsignedIntegerAdditon()
         {
             for (int x = 0; x < N / 2; x++)
             {
@@ -61,7 +61,7 @@ namespace TestComputationSpeedBetweenDifferentTypes
         }
 
         [Benchmark(Description = "long integer addition")]
-        public void LongIntegerAdditon()
+        public void TestLongIntegerAdditon()
         {
             for (int x = 0; x < N / 2; x++)
             {
@@ -70,7 +70,7 @@ namespace TestComputationSpeedBetweenDifferentTypes
         }
 
         [Benchmark(Description = "unsigned long integer addition")]
-        public void UnsignedLongIntegerAdditon()
+        public void TestUnsignedLongIntegerAdditon()
         {
             for (int x = 0; x < N / 2; x++)
             {
@@ -79,7 +79,7 @@ namespace TestComputationSpeedBetweenDifferentTypes
         }
 
         [Benchmark(Description = "float addition")]
-        public void FloatAdditon()
+        public void TestFloatAdditon()
         {
             for (int x = 0; x < N / 2; x++)
             {
@@ -88,7 +88,7 @@ namespace TestComputationSpeedBetweenDifferentTypes
         }
 
         [Benchmark(Description = "double addition")]
-        public void DoubleAdditon()
+        public void TestDoubleAdditon()
         {
             for (int x = 0; x < N / 2; x++)
             {
@@ -97,7 +97,7 @@ namespace TestComputationSpeedBetweenDifferentTypes
         }
 
         [Benchmark(Description = "decimal addition")]
-        public void DecimalAdditon()
+        public void TestDecimalAdditon()
         {
             for (int x = 0; x < N / 2; x++)
             {
